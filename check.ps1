@@ -12,7 +12,7 @@ Foreach ($application in $installListx86)
     else
     {
         Write-host "Microsoft Visual C++ 2010 x86 Redistributable not found. Starting the install"
-        \\corpdeployer.telmetrics.corp\configtransform$\installs\2010x86_vcredist_x86 /q /norestart
+        \\server\installs\2010x86_vcredist_x86 /q /norestart
 
         if ($error.count -gt 1)
         {
